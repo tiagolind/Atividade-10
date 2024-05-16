@@ -25,7 +25,7 @@ printf("Digite a quarta nota: ");
 scanf("%f", &nota4);
 
 float total = nota1+nota2+nota3+nota4;
-printf("A nota Total do aluno e: %f", total);
+printf("A nota Total do aluno e: %.2f", total);
 
 return 0;
 }
@@ -61,7 +61,7 @@ int main() {
   float total = (nota1+nota2+nota3+nota4)/4;
   
    
-   printf("A nota Total do aluno e: %f", total);
+   printf("A nota Total do aluno e: %.2f", total);
 
 return 0;
 }
@@ -89,7 +89,7 @@ int main() {
       
     float area = base*altura;
     
-    printf("A area do seu retangulo: %f",area);
+    printf("A area do seu retangulo: %.2f",area);
 return 0;
 }
 ---------------------------------------------------
@@ -115,10 +115,11 @@ int main() {
 	  
 	float diferenca = num1-num2;
 	
-	printf("A diferenca dos dois numeros e: %f",diferenca);   
+	printf("A diferenca dos dois numeros e: %.2f",diferenca);   
 
 return 0;
 }
+----------------------------------------------------
 
    Questão 5
 
@@ -142,19 +143,146 @@ printf("Digite o segundo valor: ");
 
    float valor = numero1/numero2;
 
-printf("A divisao dos dois numeros e: %f",valor);
+printf("A divisao dos dois numeros e: %.2f",valor);
 
 return 0;
 
 }
+-------------------------------------------------
 
   Questão 6
 
 #include <stdio.h>
 #include <stdlib.h>
 
- int main(){
+int main (){
+
+//Criando variáveis 
+
+   float numero1;
 
   //Exibindo variáveis
 
-float print
+printf("Digite o peso em Kg: ");
+   scanf("%f",&numero1,"\n");
+
+
+   float valor = numero1*1000;
+
+printf("Seu peso em gramas: %.2f",valor);
+
+return 0;
+
+}
+---------------------------------------------------
+
+Questão 7
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main (){
+
+//Criando variáveis 
+
+   float numero1;
+
+  //Exibindo variáveis
+
+printf("Quantos Kilos de comida comeu: ");
+   scanf("%f",&numero1,"\n");
+
+
+   float valor = numero1*45;
+
+printf("Preco do seu prato de comida: R$%.2f",valor);
+
+return 0;
+
+}
+----------------------------------------------------
+
+  Questão 8
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main (){
+
+//Criando variáveis 
+
+   float numero1;
+
+  //Exibindo variáveis
+
+printf("Quantos Fahrenheit esta: ");
+   scanf("%f",&numero1,"\n");
+
+
+   float valor = (numero1-32)/1.8;
+
+printf("Em celsius esta em: %.2f",valor);
+
+return 0;
+
+}
+----------------------------------------------------
+   Questão 9
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main (){
+
+//Criando variáveis 
+
+   float diametro,raio,comprimento,area;
+   float pi = 3.14;
+   
+  //Exibindo variáveis
+
+    printf("Qual o raio da circunferencia: ");
+      scanf("%f",&raio,"\n");
+
+
+     comprimento = 2 * pi * raio;
+       diametro= raio * 2;
+         area = pi * (raio* raio);
+
+    printf("\nComprimento: %.2f", comprimento);
+    printf("\nDiametro: %.2f",diametro);
+    printf("\nArea: %.2f",area );
+    
+return 0;
+
+}
+-----------------------------------------------
+   Questão 10
+
+#include <stdio.h>
+
+//Atividade 10
+
+int main (){
+
+int primeiroValor,primeiroNovo,segundoNovo,segundoValor;
+
+printf("\nInforme o primeiro valor: ");
+ scanf("%d", &primeiroValor);
+ 
+printf("\nInforme o segundo valor: ");
+ scanf("%d", &segundoValor);
+ 
+ primeiroNovo = segundoValor;
+ segundoNovo = primeiroValor;
+ 
+printf("\nO valor antigo do primeiro valor = %d",primeiroValor);
+printf(" e o novo valor = %d",primeiroNovo);
+printf("\nO valor antigo do segundo valor = %d", segundoValor);
+printf(" e o novo valor = %d" , segundoNovo);
+
+
+}
+
+-------------------------------------------
+ACABOU!!!!
