@@ -1,0 +1,160 @@
+Questão de 1 a 10 da atividade 10
+
+(Questão 1)
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main() {
+
+float nota1;
+float nota2;
+float nota3;
+float nota4;
+
+printf("Digite a primeira nota: ");
+scanf("%f", &nota1);
+
+printf("Digite a segunda nota: ");
+scanf("%f", &nota2);        
+
+printf("Digite a terceira nota: ");
+scanf("%f", &nota3);
+
+printf("Digite a quarta nota: ");
+scanf("%f", &nota4);
+
+float total = nota1+nota2+nota3+nota4;
+printf("A nota Total do aluno e: %f", total);
+
+return 0;
+}
+----------------------------------------------
+   Questão 2
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main() {
+
+ // Criando variáveis
+ 
+ float nota1;
+ float nota2;
+ float nota3;
+ float nota4;
+
+ // Exibindo variáveis
+ 
+  printf("Digite a primeira nota: ");
+    scanf("%f", &nota1);
+
+  printf("Digite a segunda nota: ");
+    scanf("%f", &nota2);        
+
+  printf("Digite a terceira nota: ");
+    scanf("%f", &nota3);
+
+  printf("Digite a quarta nota: ");
+    scanf("%f", &nota4);
+
+  float total = (nota1+nota2+nota3+nota4)/4;
+  
+   
+   printf("A nota Total do aluno e: %f", total);
+
+return 0;
+}
+---------------------------------------------------
+  Questão 3
+
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main() {
+
+ // Criando variáveis
+ 
+   float altura;
+   float base;
+   
+ // Exibindo variáveis
+ 
+    printf("Qual a base do seu retangulo? ");
+      scanf("%f",&base,"\n");
+    
+    printf("Qual a altura? ");
+      scanf("%f",&altura,"\n");
+      
+    float area = base*altura;
+    
+    printf("A area do seu retangulo: %f",area);
+return 0;
+}
+---------------------------------------------------
+   Questão 4
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main() {
+
+ // Criando variáveis
+ 
+   float num1;
+   float num2;
+   
+  // Exibindo variáveis
+  
+    printf ("Qual o primeiro valor? ");
+      scanf("%f",&num1,"\n");
+    
+    printf("Qual o segundo valor? ");
+      scanf("%f",&num2,"\n");
+	  
+	float diferenca = num1-num2;
+	
+	printf("A diferenca dos dois numeros e: %f",diferenca);   
+
+return 0;
+}
+
+   Questão 5
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main (){
+
+//Criando variáveis 
+
+   float numero1;
+   float numero2;
+
+  //Exibindo variáveis
+
+printf("Digite o primeiro valor: ");
+   scanf("%f",&numero1,"\n");
+
+printf("Digite o segundo valor: ");
+   scanf("%f",&numero2,"\n");
+
+   float valor = numero1/numero2;
+
+printf("A divisao dos dois numeros e: %f",valor);
+
+return 0;
+
+}
+
+  Questão 6
+
+#include <stdio.h>
+#include <stdlib.h>
+
+ int main(){
+
+  //Exibindo variáveis
+
+float print
